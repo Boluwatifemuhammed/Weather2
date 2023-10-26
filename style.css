@@ -1,0 +1,63 @@
+
+.cont{
+    display: inline-block;
+    padding: 100px;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid rgb(15, 10, 75);
+    margin-left: 20%;
+    background-image: url("weather.webp");
+    background-size: cover;
+}
+
+.input-field{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    /* margin-right: 20%; */
+}
+
+
+
+.btn{
+    height: 40px;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.loader{
+    width: 40px;
+    height: 40px;
+    border: 5px solid grey;
+    border-right: 5px solid rgb(41, 75, 212);
+    border-radius: 50%;
+    animation: rot 1.5s infinite;
+    margin-left: 47%;
+    margin-top: 10%;
+    display: none;
+}
+
+.citydetail{
+    font-size: 25px;
+}
+
+.temp{
+    margin-left: 43%;
+}
+p{
+    font-size: 40px;
+    text-align: center;
+}
+.desc{
+    font-size: 20px;
+}
+@keyframes rot{
+    100%{
+        transform: rotate(360deg);
+        
+    }
+}
